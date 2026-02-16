@@ -9,6 +9,7 @@ data = {
         "I love this product",
         "Amazing experience",
         "Very good service",
+        "It was a intresting Day",
         "I am happy",
         "Excellent quality",
         "This is awesome",
@@ -18,7 +19,7 @@ data = {
         "I hate this product"
     ],
     "sentiment": [
-        "positive","positive","positive","positive","positive","positive",
+        "positive","positive","positive","positive","positive","positive","positive",
         "negative","negative","negative","negative"
     ]
 }
@@ -41,3 +42,4 @@ model.fit(df["text"], df["sentiment"])
 joblib.dump(model, "sentiment_model.pkl")
 
 print("MODEL TRAINED AND SAVED")
+
