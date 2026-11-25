@@ -15,11 +15,12 @@ data = {
         "Worst service",
         "Very poor quality",
         "I am disappointed",
-        "I hate this product"
+        "I hate this product",
+        "I love you"
     ],
     "sentiment": [
         "positive","positive","positive","positive","positive","positive",
-        "negative","negative","negative","negative"
+        "negative","negative","negative","negative","positive"
     ]
 }
 
